@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Shows</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>My Favorite Shows</h1>
+    <div class="shows-container">
+        {% for show in shows %}
+        <div class="show-card">
+            <img src="/static/{{ show.Poster }}" alt="{{ show.Title }}">
+            <h2>{{ show.Title }}</h2>
+            <p><strong>Type:</strong> {{ show.Type }}</p>
+            <p><strong>Seasons:</strong> {{ show.Seasons or 'N/A' }}</p>
+            <p><strong>Episodes:</strong> {{ show.Episodes or 'N/A' }}</p>
+            <p><strong>Year:</strong> {{ show.Year }}</p>
+            <p><strong>Cast:</strong> {{ show.Cast | join(', ') }}</p>
+            <p><strong>Directors:</strong> {{ show.Directors | join(', ') }}</p>
+            <p><strong>Rating:</strong> {{ show.Rating }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

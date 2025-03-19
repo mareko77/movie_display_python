@@ -1,0 +1,49 @@
+[
+    {
+        "Title": "The Walking Dead",
+        "Seasons": 11,
+        "Episodes": 177,
+        "Year": 2010,
+        "Cast": ["Andrew Lincoln", "Norman Reedus", "Melissa McBride"],
+        "Type": "TV Show",
+        "Rating": 8.1,
+        "Poster": "walking_dead.jpg",
+        "Directors": ["Frank Darabont"]
+    },
+    {
+        "Title": "Top Gun: Maverick",
+        "Year": 2022,
+        "Cast": ["Tom Cruise", "Miles Teller", "Jennifer Connelly"],
+        "Type": "Movie",
+        "Rating": 8.3,
+        "Poster": "top_gun_maverick.jpg",
+        "Directors": ["Joseph Kosinski"]
+    },
+    {
+        "Title": "Inception",
+        "Year": 2010,
+        "Cast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
+        "Type": "Movie",
+        "Rating": 8.8,
+        "Poster": "inception.jpg",
+        "Directors": ["Christopher Nolan"]
+    },
+    {
+        "Title": "Mission: Impossible - Dead Reckoning Part One",
+        "Year": 2023,
+        "Cast": ["Tom Cruise", "Hayley Atwell", "Ving Rhames"],
+        "Type": "Movie",
+        "Rating": 7.9,
+        "Poster": "mission_impossible_dead_reckoning.jpg",
+        "Directors": ["Christopher McQuarrie"]
+    },
+    {
+        "Title": "Avatar: The Way of Water",
+        "Year": 2022,
+        "Cast": ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver"],
+        "Type": "Movie",
+        "Rating": 7.7,
+        "Poster": "avatar_way_of_water.jpg",
+        "Directors": ["James Cameron"]
+    }
+]
